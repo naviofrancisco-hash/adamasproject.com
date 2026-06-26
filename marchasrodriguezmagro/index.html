@@ -128,7 +128,41 @@ td.dst{font-weight:600;color:var(--vd)}td.ori{font-weight:600;color:var(--na)}
 .fp-cta:hover{background:var(--gl);color:var(--gt)}
 
 .pie{max-width:1200px;margin:0 auto;padding:10px 24px 28px;display:flex;justify-content:space-between;font-size:11px;color:var(--gm);flex-wrap:wrap;gap:4px}
-@media(max-width:900px){.layout{grid-template-columns:1fr}.idx{position:static;max-height:none}.fb{grid-template-columns:1fr}.fi{border-right:none;border-bottom:1px solid var(--gl)}.tg{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:900px){
+  .layout{grid-template-columns:1fr;padding:10px 10px}
+  .idx{position:static;max-height:none}
+  .fb{grid-template-columns:1fr}
+  .fi{border-right:none;border-bottom:1px solid var(--gl);padding:12px 12px}
+  .fd{padding:12px 12px}
+  .fh{padding:10px 12px}
+  .ft h2{font-size:20px}
+  .ft p{font-size:10px}
+
+  /* Datos de ruta — más protagonismo */
+  .dt{padding:6px 0;font-size:13px}
+  .dv{font-size:14px}.dv.g{font-size:15px}
+  .dl{font-size:11px}
+
+  /* Tiempos — fila compacta horizontal en vez de bloques grandes */
+  .sh{font-size:10px;margin-bottom:2px}
+  .tg{display:flex;flex-direction:row;gap:0;border:1px solid var(--gl);border-radius:8px;overflow:hidden}
+  .tc{flex:1;background:var(--cr);border-radius:0;padding:5px 2px;border-right:1px solid var(--gl)}
+  .tc:last-child{border-right:none}
+  .tG{font-size:13px;font-weight:700;color:var(--vd);line-height:1}
+  .tv{font-size:8px;color:var(--gm);margin:1px 0}
+  .tt{font-size:10px;font-weight:600}
+
+  /* Reagrupamientos y avisos */
+  .pr{font-size:11px}.pn{font-size:11px}.pk{font-size:10px}
+  .ai{font-size:11px}
+
+  /* Mapa y perfil */
+  .map-div{height:220px}
+  .pc2{height:100px}
+
+  /* Pie */
+  .pie{padding:8px 10px 20px;font-size:10px}
+}
 </style>
 </head>
 <body>
@@ -500,4 +534,5 @@ document.querySelectorAll('.ficha[id],.ficha-pend[id]').forEach(f=>idxObs.observ
 </script>
 </body>
 </html>
+
 

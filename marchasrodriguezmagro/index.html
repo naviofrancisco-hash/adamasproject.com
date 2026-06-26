@@ -133,35 +133,36 @@ td.dst{font-weight:600;color:var(--vd)}td.ori{font-weight:600;color:var(--na)}
 .tg-mobile span{color:var(--gt)}
 .tg-mobile .sep{color:var(--gl)}
 @media(max-width:900px){
-  .layout{grid-template-columns:1fr;padding:10px 10px}
+  .layout{grid-template-columns:1fr;padding:8px 6px}
   .idx{position:static;max-height:none}
   .fb{grid-template-columns:1fr}
-  .fi{border-right:none;border-bottom:1px solid var(--gl);padding:12px 12px}
-  .fd{padding:12px 12px}
-  .fh{padding:10px 12px}
+  .fi{border-right:none;border-bottom:1px solid var(--gl);padding:10px 10px}
+  .fd{padding:10px 10px}
+  .fh{padding:10px 10px}
   .ft h2{font-size:20px}
   .ft p{font-size:10px}
+  .cab-i{padding:8px 10px}
 
   /* Datos de ruta — más protagonismo */
   .dt{padding:6px 0;font-size:13px}
   .dv{font-size:14px}.dv.g{font-size:15px}
   .dl{font-size:11px}
 
-  /* Tiempos — línea discreta inline */
-  .sh{font-size:10px;margin-bottom:2px}
+  /* Tiempos — ocultos en móvil */
   .tg{display:none}
-  .tg-mobile{display:flex!important}
+  .tg-mobile{display:none!important}
+  .sh-tiempos{display:none}
 
   /* Reagrupamientos y avisos */
   .pr{font-size:11px}.pn{font-size:11px}.pk{font-size:10px}
   .ai{font-size:11px}
 
   /* Mapa y perfil */
-  .map-div{height:220px}
-  .pc2{height:100px}
+  .map-div{height:210px}
+  .pc2{height:95px}
 
   /* Pie */
-  .pie{padding:8px 10px 20px;font-size:10px}
+  .pie{padding:8px 6px 20px;font-size:10px}
 }
 </style>
 </head>
@@ -208,7 +209,7 @@ td.dst{font-weight:600;color:var(--vd)}td.ori{font-weight:600;color:var(--na)}
             <div class="dt"><span class="dl">Provincias</span><span class="dv">M · GU · M</span></div>
             <div class="dt"><span class="dl">Dificultad</span><span class="bf">Fácil</span></div>
           </div>
-          <div><div class="sh">Tiempo estimado</div>
+          <div><div class="sh sh-tiempos">Tiempo estimado</div>
             <div class="tg-mobile"><strong>A</strong><span>1h 54m</span><span class="sep">·</span><strong>B</strong><span>2h 06m</span><span class="sep">·</span><strong>C</strong><span>2h 22m</span><span class="sep">·</span><strong>D</strong><span>2h 35m</span></div>
             <div class="tg">
             <div class="tc"><div class="tG">A</div><div class="tv">30 km/h</div><div class="tt">1h 54m</div></div>
@@ -265,7 +266,7 @@ td.dst{font-weight:600;color:var(--vd)}td.ori{font-weight:600;color:var(--na)}
             <div class="dt"><span class="dl">Provincias</span><span class="dv">M · GU · M</span></div>
             <div class="dt"><span class="dl">Dificultad</span><span class="bf">Fácil</span></div>
           </div>
-          <div><div class="sh">Tiempo estimado</div>
+          <div><div class="sh sh-tiempos">Tiempo estimado</div>
             <div class="tg-mobile"><strong>A</strong><span>1h 37m</span><span class="sep">·</span><strong>B</strong><span>1h 47m</span><span class="sep">·</span><strong>C</strong><span>2h 01m</span><span class="sep">·</span><strong>D</strong><span>2h 12m</span></div>
             <div class="tg">
             <div class="tc"><div class="tG">A</div><div class="tv">30 km/h</div><div class="tt">1h 37m</div></div>
@@ -322,7 +323,7 @@ td.dst{font-weight:600;color:var(--vd)}td.ori{font-weight:600;color:var(--na)}
             <div class="dt"><span class="dl">Provincias</span><span class="dv">M · GU · M</span></div>
             <div class="dt"><span class="dl">Dificultad</span><span class="bm">Medio</span></div>
           </div>
-          <div><div class="sh">Tiempo estimado</div>
+          <div><div class="sh sh-tiempos">Tiempo estimado</div>
             <div class="tg-mobile"><strong>A</strong><span>1h 45m</span><span class="sep">·</span><strong>B</strong><span>1h 57m</span><span class="sep">·</span><strong>C</strong><span>2h 12m</span><span class="sep">·</span><strong>D</strong><span>2h 24m</span></div>
             <div class="tg">
             <div class="tc"><div class="tG">A</div><div class="tv">30 km/h</div><div class="tt">1h 45m</div></div>
@@ -379,7 +380,7 @@ td.dst{font-weight:600;color:var(--vd)}td.ori{font-weight:600;color:var(--na)}
             <div class="dt"><span class="dl">Provincias</span><span class="dv">M · GU · M</span></div>
             <div class="dt"><span class="dl">Dificultad</span><span class="bm">Medio</span></div>
           </div>
-          <div><div class="sh">Tiempo estimado</div>
+          <div><div class="sh sh-tiempos">Tiempo estimado</div>
             <div class="tg-mobile"><strong>A</strong><span>1h 56m</span><span class="sep">·</span><strong>B</strong><span>2h 09m</span><span class="sep">·</span><strong>C</strong><span>2h 25m</span><span class="sep">·</span><strong>D</strong><span>2h 38m</span></div>
             <div class="tg">
             <div class="tc"><div class="tG">A</div><div class="tv">30 km/h</div><div class="tt">1h 56m</div></div>
@@ -436,7 +437,7 @@ td.dst{font-weight:600;color:var(--vd)}td.ori{font-weight:600;color:var(--na)}
             <div class="dt"><span class="dl">Provincias</span><span class="dv">M · GU · M</span></div>
             <div class="dt"><span class="dl">Dificultad</span><span class="bm">Medio</span></div>
           </div>
-          <div><div class="sh">Tiempo estimado</div>
+          <div><div class="sh sh-tiempos">Tiempo estimado</div>
             <div class="tg-mobile"><strong>A</strong><span>1h 52m</span><span class="sep">·</span><strong>B</strong><span>2h 04m</span><span class="sep">·</span><strong>C</strong><span>2h 20m</span><span class="sep">·</span><strong>D</strong><span>2h 33m</span></div>
             <div class="tg">
             <div class="tc"><div class="tG">A</div><div class="tv">30 km/h</div><div class="tt">1h 52m</div></div>
